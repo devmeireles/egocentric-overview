@@ -6,8 +6,6 @@ import { useNavigate } from 'react-router-dom';
 
 import { RoutesEnum } from '../../routes/routesEnum';
 
-type Props = {}
-
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
@@ -47,7 +45,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
 }));
 
-const SearchBar: React.FC<Props> = ({ }): JSX.Element => {
+const SearchBar: React.FC = (): JSX.Element => {
     const history = useNavigate()
 
     const handleSearch = (term: string, key: string) => {

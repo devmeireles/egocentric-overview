@@ -4,10 +4,8 @@ import GameIntroduction from "../components/molecules/GameIntroduction";
 import { useNavigate } from "react-router-dom";
 import { RoutesEnum } from "../routes/routesEnum";
 
-type Props = {
-}
 
-const Home: React.FC<Props> = ({ }): JSX.Element => {
+const Home: React.FC = (): JSX.Element => {
     const history = useNavigate()
     const [username, setUsername] = React.useState<string>('')
 

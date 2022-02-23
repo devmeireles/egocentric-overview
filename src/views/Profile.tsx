@@ -4,10 +4,7 @@ import { useParams } from "react-router-dom";
 
 import DevProfile from "../components/organisms/DevProfile";
 
-type Props = {
-}
-
-const Profile: React.FC<Props> = ({ }): JSX.Element => {
+const Profile: React.FC = (): JSX.Element => {
     const { username } = useParams()
 
     return (

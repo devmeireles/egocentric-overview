@@ -1,5 +1,5 @@
-import React, { Dispatch } from "react";
-import { AppBar, Avatar, Box, IconButton, Toolbar, Typography, useTheme } from "@mui/material";
+import React from "react";
+import { AppBar, Box, IconButton, Toolbar, Typography, useTheme } from "@mui/material";
 import { Brightness7TwoTone, Brightness4TwoTone } from "@mui/icons-material"
 import SearchBar from "./SearchBar";
 
