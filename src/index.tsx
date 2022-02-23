@@ -6,7 +6,7 @@ import { Routes } from './routes';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/egocentric-overview'>
       <App>
         <Routes />
       </App>
