@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/egocentric-overview/static/js/main.e4a4caa4.js",
+    "main.js": "/egocentric-overview/static/js/main.e50044c7.js",
     "index.html": "/egocentric-overview/index.html",
-    "main.e4a4caa4.js.map": "/egocentric-overview/static/js/main.e4a4caa4.js.map"
+    "main.e50044c7.js.map": "/egocentric-overview/static/js/main.e50044c7.js.map"
   },
   "entrypoints": [
-    "static/js/main.e4a4caa4.js"
+    "static/js/main.e50044c7.js"
   ]
 }
